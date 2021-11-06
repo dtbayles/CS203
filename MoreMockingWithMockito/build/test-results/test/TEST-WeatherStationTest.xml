@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="WeatherStationTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2021-02-15T04:07:16" hostname="Drews-Air" time="2.341">
+  <properties/>
+  <testcase name="temperatureCalibrationTestTrue()" classname="WeatherStationTest" time="2.251"/>
+  <testcase name="runStormWarningCheck()" classname="WeatherStationTest" time="0.018"/>
+  <testcase name="temperatureCalibrationTestFalse()" classname="WeatherStationTest" time="0.005"/>
+  <testcase name="anemometerCalibrationCheckFalse()" classname="WeatherStationTest" time="0.007"/>
+  <testcase name="runTornadoWarningCheck()" classname="WeatherStationTest" time="0.04"/>
+  <testcase name="anemometerCalibrationCheckTrue()" classname="WeatherStationTest" time="0.007"/>
+  <system-out><![CDATA[Alpha: 10.0 Beta: 10.0 Diff: 0.0
+Humidity: 40.0 AirPressure: 700.0 Temp: 80.0
+Humidity: 20.0 AirPressure: 700.0 Temp: 80.0
+Alpha: 10.0 Beta: 0.0 Diff: 10.0
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
